@@ -22,16 +22,16 @@ public class Main
         switch ((int) resposta)
         {
             case 1:
-                operacao.Soma(valor1, valor2);
+                operacao.soma(valor1, valor2);
                 break;
             case 2:
-                operacao.Subtracao(valor1, valor2);
+                operacao.subtracao(valor1, valor2);
                 break;
             case 3:
-                operacao.Multiplicacao(valor1, valor2);
+                operacao.multiplicacao(valor1, valor2);
                 break;
             case 4:
-                operacao.Divisao(valor1, valor2);
+                operacao.divisao(valor1, valor2);
                 break;
         }
 
